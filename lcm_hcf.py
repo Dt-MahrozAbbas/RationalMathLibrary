@@ -13,3 +13,10 @@ class math:
             reminder=dividend%divisior
         return divisior
     staticmethod(hcf)   
+
+ 
+    def lcm(n1,n2): 
+        hf=math.hcf(n1,n2)
+        lcm=(n1*n2)//hf
+        return lcm
+    staticmethod(lcm)
